@@ -96,4 +96,7 @@
   .dont-have-account {
     font-size: 10px;
   }
+  .login-form input {
+    height: 1.1rem;
+  }
 }
