@@ -121,10 +121,10 @@ const Login = () => {
         </section>
       ) : (
         <section>
-          <div className="signup-wrapper">
-            <div className="signup-body">
-              <h1>Sign Up</h1>
-              <form className='signup-form' onSubmit={handleSubmit}>
+          <div className="login-wrapper">
+            <div className="login-body">
+              <h1 className='sign-up-heading'>Sign Up</h1>
+              <form className='login-form' onSubmit={handleSubmit}>
                 <label htmlFor="username">Username</label>
                 <input
                   type="text"
